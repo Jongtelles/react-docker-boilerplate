@@ -15,11 +15,13 @@ const DefinePluginConfig = new webpack.DefinePlugin({
 });
 
 module.exports = {
+  // necessary for Docker on Windows to hot reload
   watchOptions: {
     aggregateTimeout: 300,
     poll: 1000,
   },
   devServer: {
+    // needs to to be address instead of localhost for Docker
     host: '0.0.0.0',
     port: '3000',
     hot: true,

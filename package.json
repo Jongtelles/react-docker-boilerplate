@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-react-app",
+  "description": "boilerplate Docker container with React (no CRA used) webpack + hot reloading dev server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server -d --host 0.0.0.0",
@@ -9,6 +9,7 @@
   },
   "keywords": [],
   "author": "jongtelles",
+  "repository": "https://github.com/Jongtelles/react-docker-boilerplate",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -26,7 +27,7 @@
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "identity-obj-proxy": "^3.0.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.9.3",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
     "url-loader": "^0.6.2",
@@ -35,6 +36,7 @@
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
+    "npm": "^6.3.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
