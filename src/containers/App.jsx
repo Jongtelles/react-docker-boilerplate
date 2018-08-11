@@ -6,7 +6,6 @@ class App extends Component {
     return (
       <div>
         React Boilerplate :D
-        pls yay!! WOOOOO HOT
         {this.props.children}
       </div>
     );
